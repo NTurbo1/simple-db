@@ -2,8 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/nturbo1/simple-db/btree"
 )
 
 func main() {
-	fmt.Println("Hello, World!")
+	bnode := btree.BNode{} // JUST FOR TESTING COMPILATION!!!
+	fmt.Println("Hello, World!", bnode)
 }
